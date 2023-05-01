@@ -11,7 +11,8 @@ body {
 }
 body .card {
   max-width: 450px;
-  margin: 30px auto;
+  margin: 40px auto;
+  margin-top: 140px;
   border-radius: 20px;
   box-shadow: 0px 25px 60px -10px hsl(224, 23%, 55%);
   background-color: white;
@@ -62,26 +63,24 @@ body .card .annualplan a {
 body .card .annualplan a:hover {
   text-decoration: none;
 }
-body .card .button {
+body .card button {
   width: 80%;
   height: 50px;
-  margin: 25px;
+  margin: 30px;
   border-radius: 10px;
   background-color: hsl(245, 75%, 52%);
   box-shadow: 0px 20px 15px hsl(225, 100%, 94%);
   border: none;
-}
-body .card .button a {
   color: hsl(225, 100%, 94%);
   text-decoration: none;
   font-weight: 800;
 }
-body .card .button:hover {
+body .card button:hover {
   cursor: pointer;
   filter: opacity(0.8);
 }
 body .card .cancel {
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 body .card .cancel a {
   text-decoration: none;
@@ -106,5 +105,10 @@ body .card .attribution footer {
   }
   body .card .img img {
     width: 375px;
+  }
+  body .attribution footer {
+    align-items: center;
+    text-align: center;
+    margin: auto;
   }
 }/*# sourceMappingURL=style.css.map */
